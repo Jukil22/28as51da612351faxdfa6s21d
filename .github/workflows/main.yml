@@ -12,8 +12,8 @@ jobs:
     - name: Загрузка Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Jukil22/VDS2/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Jukil22/VDS2/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Jukil22/VDS/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Jukil22/VDS/loop.bat -OutFile loop.bat
     - name: Загрузка программ.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/Jukil22/VDS2/main/launcher/Node.js.lnk -OutFile Node.js.lnk
